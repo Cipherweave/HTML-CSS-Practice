@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+} 
+/* this is univesal selevtor, so we dont have to apply box-sizing for every element */
+body {
+    margin: 10px;
+    width: 300px;
+
+}
+
+#text1 {
+    padding: 10px 20px 10px 20px;
+    border: 5px solid gold
+}
+
+.Box {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    padding: 20px;
+    border: 20px solid gold;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: auto;
+}
+
+.Box2 {
+    width: 15rem;
+    height: 100vh;
+    background-color: blueviolet;
+    padding: 20px;
+    border: 20px solid gold;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: auto;
+}

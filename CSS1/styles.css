@@ -1,0 +1,42 @@
+body{
+    margin: 50px;
+}
+
+article :last-child {
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+a[href^= "https"] {
+    color: yellow;
+}
+
+li:nth-child(2n) {
+    color: rgb(170, 170, 133);
+}
+
+a:link ,
+a:visited{
+    color: orange;
+}
+
+a:hover ,a:focus{
+    color: red;
+}
+
+p:hover{
+    color:green;
+}
+
+p::first-letter {
+    font-size: large;
+}
+
+::selection{
+    background-color: greenyellow;
+}
+
+p:first-child::before {
+    content: "...";
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS2/normalize.css" />
+    <link rel="stylesheet" href="../CSS2/Images.css" />
+    <script
+      src="https://kit.fontawesome.com/4377c6986a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- this connects us to the icon website -->
+  </head>
+  <body>
+    <h1>My Heading</h1>
+    <img class="meal" src="../Images2/meal.jpg" alt="A bowl full of food" />
+    <span class="bg-dishes"></span>
+    <span class="bg-ufo"></span>
+    <span class="bg-saturn"></span>
+    <span class="bg-rocketship"></span>
+    <span class="bg-landing"></span>
+    <img src="data:image/pn.... " alt="" />
+    <img class="clip" src="../Images2/meal.jpg" />
+    <img class="filter" src="../Images2/meal.jpg" alt="" />
+    <img
+      class="DPR"
+      src="../Images2/meal.jpg"
+      alt="bowl"
+      srcset="
+        ../Images2/meal.jpg     400w,
+        ../Images2/meal@2x.jpg  800w,
+        ../Images2/meal@3x.jpg 1200w
+      "
+      sizes="
+      (max-width:500px) 100vw
+      ,(max-width:700px) 50vw
+      , 30vw"
+    />
+
+    <picture>
+      <source type="image/webp" srcset="../Images2/meal.webp" />
+      <source type="image/jpeg" srcset="../Images2/meal.jpg" />
+      <img src="../Images2/meal.jpg" alt="Bowl" />
+    </picture>
+    <!-- webp is a formal that makes files less space. this is for if browser didnt 
+    support webp -->
+
+    <picture>
+      <source media="(max-width: 500px)" srcset="../Images2/meal-cropped.jpg" />
+      <source media="(min-width: 500px)" srcset="../Images2/meal.jpg" />
+      <img src="../Images2/meal.jpg" alt="Bowl" />
+    </picture>
+  </body>
+</html>

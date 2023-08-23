@@ -1,0 +1,48 @@
+body {
+    margin: 50px;
+    background-color: aqua;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: -10px 10px 20px black;
+    
+    
+}
+.box:hover {
+    background-color: rgb(143, 64, 64, 0.8);
+
+}
+
+.box2 {
+    border: 5px dashed green;
+    border-top: 10px solid green;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom right,red 10%, yellow 90%);
+}
+
+.box3 {
+    
+    /* or we could go border width */
+    border: 5px solid black;
+    border-width: 5px 6px 10px 20px;
+    border-radius: 100px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle at top left,white 5%, green)
+    
+    
+}
+
+h1 {
+    color: white;
+    
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    
+}

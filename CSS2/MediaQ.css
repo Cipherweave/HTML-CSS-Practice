@@ -1,0 +1,24 @@
+body {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    background-color: lightcoral;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.box:nth-of-type(2) {
+    background-color: antiquewhite;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1500px){
+    .container{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,96 @@
+body {
+    margin: 10px;
+    background: url(../Images2/bg-paper@2x.jpg);
+    background-repeat: no-repeat;
+    /* or we can use repeat-x or repeat-y to repeat the picture in chosen directions
+    remove to repeat to see what happens */
+    background-position: 100% 0px;
+    background-size: 100% 100%;
+    /* the reason height is not going to 100% is because body is a block element
+    and comes down only to the height of the picture (Food Bowl) */
+    height: 300vh;
+    /* so we increase the height */
+    background-size: cover;
+    /* for fiting the picure ratios */
+    background-attachment: fixed;
+    /* Important!! this makes the background stick in the page so when 
+    you scroll its stable */
+
+}
+
+.meal {
+    width: 40vw;
+}
+
+.bg-dishes
+{
+background:url('../Images2/css-sprite-combined.png') 0px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.bg-landing
+{
+background:url('../Images2/css-sprite-combined.png') -100px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.bg-rocketship
+{
+background:url('../Images2/css-sprite-combined.png') -200px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.bg-saturn
+{
+background:url('../Images2/css-sprite-combined.png') -300px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.bg-ufo
+{
+background:url('../Images2/css-sprite-combined.png') -400px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+
+.clip {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    /* https://bennettfeely.com/clippy/
+    use this webiste and make a crop copy and paste the code here */
+}
+
+
+.filter:hover {
+    filter: grayscale(70%) blur(3px);
+}
+
+.DPR {
+
+}
+
+/* for making less requests from servers video:Css Sprites  */
+
+/* https://cssspritestool.com/ */
+
+
+
+/* for data urls */
+
+/* https://www.cssportal.com/image-to-data/ */
+
+
+
+
+/* for svg background */
+
+/* https://www.svgbackgrounds.com/ */
+
+
+
+/* for jpeg to webp */
+/* https://cloudconvert.com/jpg-to-webp */

@@ -1,0 +1,107 @@
+body {
+    margin: 10px;
+    height: 200vh;
+}
+
+.boxes {
+    border: 3px solid lightblue;
+    position: relative;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
+
+.Box1 {
+    background-color: gold;
+    position: relative;
+    right: -5rem;
+    z-index: 2; 
+    /* Its basicaly the z axis of objects. To say which comes first */
+}
+
+.Box2{
+    background-color: darkolivegreen;
+    position: fixed;
+    /* it always stayed in one position */
+    top: 0;
+    left: 2rem;
+    right: 2rem;
+    width: auto;
+}
+
+.Box3{
+    background-color: saddlebrown;
+    position: relateve; 
+    /* I dont know honestly what aboslute is but parent have to be relative in order for this to work */
+    /* relative to its parents */
+    bottom: 4px;
+}
+
+.tweet {
+    margin-top: 10px;
+    border: 2px solid lightblue;
+    overflow: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+.avatar{
+    width: 10rem;
+    height: 10rem;
+    background-color: tan;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+.container {
+    border: 2px solid lightgray;
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    /* when we do row besicaly we say x axis is proyority colom for y axis. So all the flex tolls will go for that axis */
+    justify-content: center;
+    align-items: self-end;
+    width: 50vh;
+    height: 50vh;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.container2 {
+    border: 2px solid lightgray;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    top: 50px;
+
+    
+}
+.Box {
+    flex-grow: 0;
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    margin: 5px;
+    padding: 5px;
+}
+
+.box31 {
+    flex-basis: 15rem;
+}
+

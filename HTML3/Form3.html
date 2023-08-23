@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <!-- for milligram library -->
+
+    <link rel="stylesheet" href="../CSS3/normalize.css" />
+    <link rel="stylesheet" href="../CSS3/Forms3.css" />
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="Name">Name</label>
+        <input id="Name" type="text" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" />
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+
+    <form>
+      <input
+        type="text"
+        list="countries"
+        autocomplete="off"
+        placeholder="text"
+        autofocus
+      />
+      <textarea placeholder="Text "></textarea>
+      <datalist id="countries">
+        <option data-value="1">Australia</option>
+        <option data-value="2">Australia2</option>
+        <option data-value="3">Australia3</option>
+        <option data-value="4">Australia4</option>
+        <option data-value="5">Australi5</option>
+      </datalist>
+    </form>
+  </body>
+</html>
