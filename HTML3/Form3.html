@@ -37,7 +37,7 @@
         placeholder="text"
         autofocus
       />
-      <textarea placeholder="Text "></textarea>
+      <textarea placeholder="Text"></textarea>
       <datalist id="countries">
         <option data-value="1">Australia</option>
         <option data-value="2">Australia2</option>
@@ -45,6 +45,94 @@
         <option data-value="4">Australia44</option>
         <option data-value="5">Australi56</option>
       </datalist>
+    </form>
+
+    <form>
+      <select>
+        <option value=""></option>
+        <optgroup label="Pupolar">
+          <option value="" selected>Bench Press</option>
+          <!-- selected is a bollian that makes that option already slected at first -->
+          <option value="">Dead Lift</option>
+          <option value="">Squat</option>
+        </optgroup>
+
+        <optgroup label="Side">
+          <option value="">Incline Bench Press</option>
+          <option value="">Curl</option>
+        </optgroup>
+      </select>
+    </form>
+
+    <form>
+      <div>
+        <input type="checkbox" id="checkbox" checked />
+        <!-- checked atribute makes it defoult checkmark or you can also use disabled attribute 
+          for blocking the buttom -->
+        <label class="label-inline" for="checkbox">Agree</label>
+        <!-- class lable-inline is a utility class that you can find more 
+          in https://milligram.io/#forms -->
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox2" checked />
+
+        <label class="label-inline" for="checkbox2">Blue</label>
+      </div>
+    </form>
+    <!-- in check boxes, user can select multiple items, but in radio buttoms user can only select one -->
+
+    <form>
+      <div>
+        <input type="radio" name="Agree" id="radio-1" checked />
+        <label class="label-inline" for="radio-1">Agree</label>
+      </div>
+      <div>
+        <input type="radio" name="Agree" id="radio-2" />
+        <label class="label-inline" for="radio-2">Blue</label>
+      </div>
+      <!-- you have to put them in a group by giving them name attribute 
+      in order to work -->
+    </form>
+
+    <form>
+      <input type="range" min="0" max="100" value="50" />
+    </form>
+
+    <form>
+      <input type="file" accept=".jpg, .png" multiple />
+      <!-- multiple will make you choose multiple files and accept will alow only that type of file -->
+      <!-- also you can use accept="audio/* or vidoe/* to accept audio or video" -->
+    </form>
+
+    <form>
+      <fieldset>
+        <legend>sign up</legend>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+
+        <legend>Payment</legend>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
+      <!--  we can also use the section instead of fieldset element but they are the same -->
+    </form>
+
+    <form>
+      <input type="text" required minlength="4" maxlength="10" />
+      <!-- required means it is required to fill the form and minlength is 
+      least characters possible to submit same with maxlenghth -->
+      <!-- for type numbers we use min:some number and max:some number -->
+      <!-- we use this for making sure hackers dont put negative or long inputs
+      to break everythig -->
+      <button type="submit">Submit</button>
+    </form>
+
+    <form action="https://formspree.io/f/mjvqweko" method="post">
+      <input type="text" placeholder="Name" name="Name" />
+      <input type="text" placeholder="Email" name="Email" />
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
