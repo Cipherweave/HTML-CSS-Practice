@@ -1,0 +1,69 @@
+body {
+    background: url(../Images/photo-1447078806655-40579c2520d6.jpg);
+    background-size: 100%;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-left: 0.3rem;
+}
+
+form {
+    width: 20rem;
+    background-color: #0bf7f771;
+    padding: 2rem; /* Add padding to the Box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.Email {
+    width: 100%;
+    border: 0;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+}
+
+.Email:focus {
+    outline: 0;
+    border-color: #86b7fe;
+    box-shadow: 0px 0px 2px 2px #b9d3fa;
+    transition: border-color 0.15s, box-shadow 0.2s;
+}
+
+
+
+.Remember {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    background-color: rgba(0, 72, 207, 0.856);
+    
+    border: 0;
+    padding: 0.5rem 5rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(77, 2, 148);
+}

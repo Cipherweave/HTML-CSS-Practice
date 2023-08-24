@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    border: 2px solid ;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.checkbox-text {
+    margin-left: 0.5rem;
+}
+
+
