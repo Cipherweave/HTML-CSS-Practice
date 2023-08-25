@@ -1,0 +1,64 @@
+body {
+    margin: 10px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+img {
+    border-radius: 5rem;
+    border: 0.2rem solid white;
+    margin-left: 2rem;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+
+
+}
+
+.Tweet {
+    background-color: rgb(255, 255, 255);
+    width: 25rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 30px 20px #f9f9f9;
+    transition: 0.5s;
+}
+
+.Tweet:hover {
+    transform: rotate(-20deg) translateY(6rem);
+    transform-origin: 100% 0;
+
+    transition: transform 0.5s;
+    
+}
+
+
+
+.Profile{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    padding: 0.5rem; 
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    background: linear-gradient(90deg, rgba(116,214,144,1) 4%, rgba(92,191,187,1) 100%);
+    /* https://cssgradient.io/ */
+}
+
+.Profile p {
+    display: flex;
+    align-items: center;
+}
+
+
+.text {
+    padding: 1rem;
+    
+}
+
+.Name{
+    margin-left: 1rem;
+    color: white;
+    
+}
+
