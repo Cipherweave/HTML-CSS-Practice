@@ -1,0 +1,65 @@
+/* basic styles */
+*{
+    box-sizing: border-box;
+}
+
+html {
+
+}
+
+
+/* typography */
+h1, h2, h3 {
+
+}
+
+
+/* froms */
+
+
+
+/* Navigation Bar */
+
+
+
+div.nav > ul.com > li {
+
+    /* try not to use this */
+}
+
+
+.nav .com {
+    /* this works as well. means .com in the nav */
+}
+
+
+/* we heighlit the code, open command pallet and sort line the code for better undrestanding */
+
+
+:root{
+    --color-primary: black;
+    --border-radius:10px;
+}
+
+.one{
+    background: var(--color-primary);
+    height: 10px;
+    /* basicly we just set some rulls and apply them to everything */
+}
+
+
+
+.btn {
+    /* code */
+}
+
+.btn-primary {
+    background-color: beige;
+}
+
+.btn-secondary {
+    background-color: gray;
+}
+
+/* then we give this classes to btns with color we want them to be 
+instaed of overwriting */
