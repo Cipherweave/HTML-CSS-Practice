@@ -1,3 +1,4 @@
+/* COLOR PALETTE */
 :root {
   --color-primary: #15b215;
   --color-secondary: #f679f6;
@@ -5,4 +6,58 @@
   --color-white: white;
   --color-gray: #2e343a;
   --color-black: black;
+}
+
+html {
+  /* 16 * 62.5% = 10px */
+  font-size: 62.5%;
+  /* we set a rule for all the rem unit to make stuff easier */
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  /* 1.5 times the current font size */
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+  /* to make distance between Heading and paragraph */
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2.4rem;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 8rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
 }
