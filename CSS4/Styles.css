@@ -95,3 +95,37 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* BADGES */
+
+.badge {
+  border-radius: 20px;
+  /* we apperantly dont want this to be dependent to font size */
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  white-space: nowrap;
+  font-size: 2rem;
+}
+
+.badge--primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.badge--secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.badge--small {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024) {
+  badge {
+    font-size: 1.5rem;
+  }
+  badge--small {
+    font-size: 1.2rem;
+  }
+}
